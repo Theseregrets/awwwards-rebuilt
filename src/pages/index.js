@@ -4,11 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Header from "../components/header"
 
-const IndexPage = () => (
-  <Layout>
-
-  </Layout>
-)
+const IndexPage = () => <Layout></Layout>
 
 export default IndexPage
