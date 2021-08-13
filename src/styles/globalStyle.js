@@ -55,3 +55,24 @@ export const Menu = styled.div`
   background: blueviolet;
   color: #fff;
 `
+export const Cursor = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: ${props => props.theme.red};
+  transform: translate(-50%, -50%);
+  transition: all 0.1s ease-in-out;
+  transition-property: width, height, border;
+  will-change: width, height, border;
+  pointer-events: none;
+  z-index: 1000;
+  &.hovered {
+    background: transparent !important;
+    width: 56px;
+    height: 56px;
+    border: 4px solid ${props => props.theme.red};
+  }
+`
