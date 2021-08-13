@@ -33,9 +33,9 @@ const Header = () => {
         {console.log(currentTheme)}
         <Flex spaceBetween noHeight>
           <Logo>
-            <Link to="/">FURR</Link>
+            <Link to="/">MO</Link>
             <span onClick={toggleTheme}></span>
-            <Link to="/">W</Link>
+            <Link to="/">N</Link>
           </Logo>
           <Menu>
             <button>
