@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Rishita Shaw",
   "dependencies": {
-    "gatsby": "^3.4.1",
+    "gatsby": "^3.11.1",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
     "gatsby-plugin-manifest": "^3.4.0",
