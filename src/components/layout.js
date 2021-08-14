@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
   }
 
   const onCursor = cursorType => {
-    cursorType = cursorStyles !== "pointer" ? cursorType : false
+    cursorType = (cursorStyles.includes(cursorType) && cursorType) || false
 
     dispatch({ type: "CURSOR_TYPE", cursorType: cursorType })
   }
