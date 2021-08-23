@@ -72,7 +72,6 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Cursor />
       <Header onCursor={onCursor} />
-
       <main>{children}</main>
     </ThemeProvider>
   )
